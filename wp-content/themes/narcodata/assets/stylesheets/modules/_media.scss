@@ -1,0 +1,46 @@
+.media {
+	position: relative;
+	height: 0px !important;
+	img, embed, iframe {
+		display: block;
+		width: 100% !important;
+		height: 100% !important;
+		@include position(absolute, 0px 0px 0px 0px);
+	}
+	&.media-16_9 {
+		position: relative;
+		padding-bottom: 56.25%;
+		// margin: 0 (((column-flex(1)) * -1));
+	}
+}
+
+
+
+
+
+.visible-xs {
+	display: none;
+	@include breakpoint($max, $xs-screen) {
+		display: block !important;
+	}
+}
+.visible-s {
+	display: none;
+	@include breakpoint($max, $s-screen) {
+		display: block !important;
+	}
+}
+
+
+.hidden-xs {
+	display: block;
+	@include breakpoint($max, $xs-screen) {
+		display: none;
+	}
+}
+.hidden-s {
+	display: block;
+	@include breakpoint($max, $s-screen) {
+		display: none;
+	}
+}

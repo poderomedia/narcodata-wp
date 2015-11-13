@@ -1,0 +1,50 @@
+id	nombre	nombree	nombrelargo	fila	mitad	fondo	color	borde	anillo	inicio	fin	porcentaje	pleca	lineaini	lineafin	inicial	inicialc	lideres
+milenio	Milenio	Milenio	Cártel del Milenio	1	0	#a7a9ac	#6e6f71	#a69f44	#a69f44	1982	1988	16	0			M	M	Armando Valencia Cornelio 'El Maradona'
+milenio	Milenio	Milenio	Cártel del Milenio	1	0	#a7a9ac	#6e6f71	#e1a632	#a69f44	1988	1994	20	0			M	M	Armando Valencia Cornelio 'El Maradona'
+milenio	Milenio	Milenio	Cártel del Milenio	1	0	#a7a9ac	#6e6f71	#e1a632	#a69f44	1994	2000	15	0			M	M	Armando Valencia Cornelio 'El Maradona'
+milenio	Milenio	Milenio	Cártel del Milenio	1	0	#a7a9ac	#6e6f71	#e1a632	#a69f44	2000	2006	42	0			M	M	Armando Valencia Cornelio 'El Maradona'|Ventura Valencia Valencia
+oaxaca	Oaxaca	Oaxaca	Cártel de Oaxaca	2	0	#a7a9ac	#6e6f71	#a69f44	#8fc64f	1976	1982	16	0			O	O	Pedro Díaz Parada
+oaxaca	Oaxaca	Oaxaca	Cártel de Oaxaca	2	0	#a7a9ac	#6e6f71	#a69f44	#8fc64f	1982	1988	16	0			O	O	Pedro Díaz Parada
+oaxaca	Oaxaca	Oaxaca	Cártel de Oaxaca	2	0	#a7a9ac	#6e6f71	#8fc64f	#8fc64f	1988	1994	20	0			O	O	Pedro Díaz Parada
+oaxaca	Oaxaca	Oaxaca	Cártel de Oaxaca	2	0	#a7a9ac	#6e6f71	#8fc64f	#8fc64f	1994	2000	5	0			O	O	Pedro Díaz Parada
+oaxaca	Oaxaca	Oaxaca	Cártel de Oaxaca	2	0	#a7a9ac	#6e6f71	#8fc64f	#8fc64f	2000	2006	21	0			O	O	Pedro Díaz Parada
+colima	Colima	Colima	Cártel de Colima	3	0	#a7a9ac	#6e6f71	#54c8f2	#54c8f2	1991	1994	20	0			C	C	José de Jesús Amezcua Contreras
+colima	Colima	Colima	Cártel de Colima	3	0	#a7a9ac	#6e6f71	#54c8f2	#54c8f2	1994	2000	21	0			C	C	José de Jesús Amezcua Contreras|Adán Amezcua Contreras
+colima	Colima	Colima	Cártel de Colima	3	0	#a7a9ac	#6e6f71	#54c8f2	#54c8f2	2000	2003	50	0			C	C	Adán Amezcua Contreras|Jaime Arturo Ladino Ávila
+beltran-leyva	Beltrán Leyva	Beltrán Leyva	Cártel de los Beltrán Leyva	4	0	#e1a632	#7d5c10	#7d5c10	#ffffff	2008	2012	58	0			BL	BL	Arturo Beltrán Leyva 'El Barbas'|Héctor Beltrán Leyva 'El H'
+beltran-leyva	Beltrán Leyva	Beltrán Leyva	Cártel de los Beltrán Leyva	4	0	#e1a632	#7d5c10	#7d5c10	#ffffff	2012	2015	40	0			BL	BL	Héctor Beltrán Leyva 'El H'|Fausto Isidro Meza López
+jalisco-nueva-generacion		Jalisco Nueva Generación	Cártel Jalisco Nueva Generación	5	0	#e1a632	#7d5c10	#7d5c10	#ffffff	2011	2012	25	0				JNG	Nemesio Oseguera Cervantes 'El Mencho'|Abigael González Valencia
+jalisco-nueva-generacion	Jalisco Nueva Generación	Jalisco Nueva Generación	Cártel Jalisco Nueva Generación	5	0	#e1a632	#7d5c10	#7d5c10	#ffffff	2012	2015	90	0			JNG	JNG	Nemesio Oseguera Cervantes 'El Mencho'|Abigael González Valencia
+sinaloa	Sinaloa	Sinaloa	Cártel de Sinaloa	6	0	#e1a632	#7d5c10	#7d5c10	#ffffff	1990	1994	100	1	guadalajara-fin		S	S	Héctor Luis Palma Salazar 'El Güero Palma'
+sinaloa	Sinaloa	Sinaloa	Cártel de Sinaloa	6	0	#e1a632	#7d5c10	#7d5c10	#ffffff	1994	2000	100	0			S	S	Joaquín 'El Chapo' Guzmán|Ismael Zambada García 'El Mayo'|Juan José Esparragoza Moreno 'El Azul'
+sinaloa	Sinaloa	Sinaloa	Cártel de Sinaloa	6	0	#e1a632	#7d5c10	#7d5c10	#ffffff	2000	2006	100	0			S	S	Joaquín 'El Chapo' Guzmán|Ismael Zambada García 'El Mayo'|Juan José Esparragoza Moreno 'El Azul'
+sinaloa	Sinaloa	Sinaloa	Cártel de Sinaloa	6	0	#e1a632	#7d5c10	#7d5c10	#ffffff	2006	2012	80	0			S	S	Joaquín 'El Chapo' Guzmán|Ismael Zambada García 'El Mayo'|Juan José Esparragoza Moreno 'El Azul'
+sinaloa	Sinaloa	Sinaloa	Cártel de Sinaloa	6	0	#e1a632	#7d5c10	#7d5c10	#ffffff	2012	2015	100	0			S	S	Joaquín 'El Chapo' Guzmán|Ismael Zambada García 'El Mayo'
+organizacion-de-sinaloa	Organización de Sinaloa	Organización de Sinaloa	Organización de Sinaloa	7	0	#a69f44	#5e5d21	#5e5d21	#ffffff	1976	1980	100	0			OS	OS	Miguel Ángel Félix Gallardo|Ernesto Fonseca Carrillo
+guadalajara		Guadalajara	Cártel de Guadalajara	7	0	#a69f44	#5e5d21	#5e5d21	#ffffff	1980	1982	100	1	guadalajara-ini			CG	Miguel Ángel Félix Gallardo|Ernesto Fonseca Carrillo
+guadalajara	Guadalajara	Guadalajara	Cártel de Guadalajara	7	0	#a69f44	#5e5d21	#5e5d21	#ffffff	1982	1988	100	0			CG	CG	Miguel Ángel Félix Gallardo|Ernesto Fonseca Carrillo
+guadalajara		Guadalajara	Cártel de Guadalajara	7	0	#a69f44	#5e5d21	#5e5d21	#ffffff	1988	1990	100	0			CG	CG	Miguel Ángel Félix Gallardo
+juarez	Juárez	Juárez	Cártel de Juárez	7	0	#8fc64f	#4d752a	#4d752a	#ffffff	1990	1994	40	1			J	J	Amado Carrillo Fuentes 'El Señor de los Cielos'
+juarez	Juárez	Juárez	Cártel de Juárez	7	0	#8fc64f	#4d752a	#4d752a	#ffffff	1994	2000	31	0			J	J	Amado Carrillo Fuentes 'El Señor de los Cielos'|Vicente Carrillo Fuentes 'El Viceroy'
+juarez	Juárez	Juárez	Cártel de Juárez	7	0	#8fc64f	#4d752a	#4d752a	#ffffff	2000	2006	85	0			J	J	Vicente Carrillo Fuentes 'El Viceroy'
+juarez	Juárez	Juárez	Cártel de Juárez	7	0	#8fc64f	#4d752a	#4d752a	#ffffff	2006	2012	58	0			J	J	Vicente Carrillo Fuentes 'El Viceroy'
+juarez	Juárez	Juárez	Cártel de Juárez	7	0	#8fc64f	#4d752a	#4d752a	#ffffff	2012	2015	40	0			J	J	Vicente Carrillo Fuentes 'El Viceroy'|Juan Pablo Ledezma
+tijuana	Tijuana	Tijuana	Cártel de Tijuana	8	0	#54c8f2	#2d7791	#2d7791	#ffffff	1990	1994	80	1	guadalajara-fin		T	T	Ramón Arellano Félix|Benjamín Arellano Félix
+tijuana	Tijuana	Tijuana	Cártel de Tijuana	8	0	#54c8f2	#2d7791	#2d7791	#ffffff	1994	2000	31	0			T	T	Ramón Arellano Félix|Benjamín Arellano Félix
+tijuana	Tijuana	Tijuana	Cártel de Tijuana	8	0	#54c8f2	#2d7791	#2d7791	#ffffff	2000	2006	64	0			T	T	Francisco Rafael Arellano Félix 'El Tigrillo'
+tijuana	Tijuana	Tijuana	Cártel de Tijuana	8	0	#54c8f2	#2d7791	#2d7791	#ffffff	2006	2012	25	0			T	T	Eduardo Arellano Félix|Fernando Sánchez Arellano 'El Ingeniero'
+tijuana	Tijuana	Tijuana	Cártel de Tijuana	8	0	#54c8f2	#2d7791	#2d7791	#ffffff	2012	2015	30	0			T	T	Enedina Arellano Félix
+golfo	Golfo	Golfo	Cártel del Golfo	9	0	#b09bc7	#685b78	#685b78	#ffffff	1976	1982	66	0			G	G	Juan Nepomuceno Guerra
+golfo	Golfo	Golfo	Cártel del Golfo	9	0	#b09bc7	#685b78	#685b78	#ffffff	1982	1988	66	0			G	G	Juan García Ábrego 
+golfo	Golfo	Golfo	Cártel del Golfo	9	0	#b09bc7	#685b78	#685b78	#ffffff	1988	1994	40	0			G	G	Juan García Ábrego 
+golfo	Golfo	Golfo	Cártel del Golfo	9	0	#b09bc7	#685b78	#685b78	#ffffff	1994	2000	70	0			G	G	Juan García Ábrego |Osiel Cárdenas Guillén
+golfo	Golfo	Golfo	Cártel del Golfo	9	0	#b09bc7	#685b78	#685b78	#ffffff	2000	2006	100	0			G	G	Osiel Cárdenas Guillén|Antonio Cárdenas Guillén 'Tony Tormenta'
+golfo	Golfo	Golfo	Cártel del Golfo	9	0	#b09bc7	#685b78	#685b78	#ffffff	2006	2012	100	0			G	G	Antonio Cárdenas Guillén|'Tony Tormenta'|Jorge Eduardo Costilla Sánchez 'El Coss'
+golfo	Golfo	Golfo	Cártel del Golfo	9	0	#b09bc7	#685b78	#685b78	#ffffff	2012	2015	40	0			G	G	Mario Ramírez Treviño 'El Pelón'|Homero Cárdenas Guillén
+zetas	Zetas	Zetas	Los Zetas	10	0	#b09bc7	#685b78	#685b78	#ffffff	2003	2006	14	0			Z	Z	Arturo Guzmán Decena o Z1|Heriberto Lazcano Lazcano 'El Lazca'
+zetas	Zetas	Zetas	Los Zetas	10	0	#b09bc7	#685b78	#685b78	#ffffff	2006	2012	100	0			Z	Z	Heriberto Lazcano Lazcano 'El Lazca'|Miguel Ángel Treviño Morales 'Z-40'
+zetas	Zetas	Zetas	Los Zetas	10	0	#b09bc7	#685b78	#685b78	#ffffff	2012	2015	50	0			Z	Z	Omar Treviño Morales 'Z-42'|Román Ricardo Palomo Rincones 'El Coyote'
+familia-michoacana	Familia Michoacana	Familia Michoacana	La Familia Michoacana	11	0	#b09bc7	#685b78	#685b78	#ffffff	2006	2012	25	0			FM	FM	Nazario Moreno González 'El Chayo'|José de Jesús Mendez Vargas 'El Chango'
+familia-michoacana	Familia Michoacana	Familia Michoacana	La Familia Michoacana	11	0	#b09bc7	#685b78	#685b78	#ffffff	2012	2015	40	0			FM	FM	No conocido
+caballeros-templarios		Caballeros Templarios	Los Caballeros Templarios	12	0	#b09bc7	#685b78	#685b78	#ffffff	2011	2012	8	0				CT	Nazario Moreno González 'El Chayo'|Servando Gómez Martínez 'La Tuta'|Dionisio Loya Plancarte 'El Tío'
+caballeros-templarios	Caballeros Templarios	Caballeros Templarios	Los Caballeros Templarios	12	0	#b09bc7	#685b78	#685b78	#ffffff	2012	2015	90	0			CT	CT	Servando Gómez Martínez 'La Tuta'|Enrique 'El Kike' Plancarte|Dionisio Loya Plancarte 'El Tío'

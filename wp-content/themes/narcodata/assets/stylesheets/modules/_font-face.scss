@@ -1,0 +1,15 @@
+@include font-face('Flaticons Solid', "../fonts/flaticons/flaticons-solid");
+@include font-face('Flaticons Social', "../fonts/flaticons/flaticons-social");
+@include font-face('Flaticons Stroke', "../fonts/flaticons/flaticons-stroke");
+
+@include font-face('SSGlyphish', "../fonts/glyphish/ss-glyphish-outlined");
+
+@include font-face(opensans, "../fonts/opensans/opensans-regular-webfont", normal);
+@include font-face(opensans, "../fonts/opensans/opensans-italic-webfont", normal, oblique);
+@include font-face(opensans, "../fonts/opensans/opensans-bold-webfont", bold, normal);
+@include font-face(opensans, "../fonts/opensans/opensans-bolditalic-webfont", bold, oblique);
+
+@include font-face(aleo, "../fonts/aleo/aleo-regular-webfont", normal);
+@include font-face(aleo, "../fonts/aleo/aleo-italic-webfont", normal, oblique);
+@include font-face(aleo, "../fonts/aleo/aleo-bold-webfont", bold, normal);
+@include font-face(aleo, "../fonts/aleo/aleo-bolditalic-webfont", bold, oblique);

@@ -1,0 +1,2225 @@
+/*
+* Symbolset
+* www.symbolset.com
+* Copyright © 2014 Oak Studios LLC
+*
+* Upload this file to your web server
+* and place this within your <head> tags.
+* <link href="webfonts/ss-glyphish-outlined.css" rel="stylesheet" />
+*/
+
+
+.ss-glyphish-outlined {
+  position: relative;
+  &:before {
+    font-family: "SSGlyphish";
+    speak: none;
+    font-style: normal !important;
+    font-weight: normal !important;
+    line-height: 1.25em !important;
+    -webkit-font-smoothing: antialiased !important; 
+    text-indent: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+  }
+}
+
+
+.ss-cursor {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-crosshair {
+  &:before {
+    content: '⌖';
+  }
+}
+
+.ss-search {
+  &:before {
+    content: '🔎';
+  }
+}
+
+.ss-zoomin {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-zoomout {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-view {
+  &:before {
+    content: '👁';
+  }
+}
+
+.ss-binoculars {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-incognito {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-radar {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-attach {
+  &:before {
+    content: '📎';
+  }
+}
+
+.ss-link {
+  &:before {
+    content: '🔗';
+  }
+}
+
+.ss-write {
+  &:before {
+    content: '✎';
+  }
+}
+
+.ss-compose {
+  &:before {
+    content: '📝';
+  }
+}
+
+.ss-lock {
+  &:before {
+    content: '🔒';
+  }
+}
+
+.ss-unlock {
+  &:before {
+    content: '🔓';
+  }
+}
+
+.ss-combinationlock {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-key {
+  &:before {
+    content: '🔑';
+  }
+}
+
+.ss-keyhole {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-vip {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-trash {
+  &:before {
+    content: '🗑';
+  }
+}
+
+.ss-target {
+  &:before {
+    content: '◎';
+  }
+}
+
+.ss-bullseye {
+  &:before {
+    content: '🎯';
+  }
+}
+
+.ss-lightning {
+  &:before {
+    content: '☇';
+  }
+}
+
+.ss-radioactive {
+  &:before {
+    content: '☢';
+  }
+}
+
+.ss-skull {
+  &:before {
+    content: '💀';
+  }
+}
+
+.ss-skullandcrossbones {
+  &:before {
+    content: '☠';
+  }
+}
+
+.ss-tag {
+  &:before {
+    content: '🏷';
+  }
+}
+
+.ss-tags {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-pricetag {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-flag {
+  &:before {
+    content: '⚑';
+  }
+}
+
+.ss-like {
+  &:before {
+    content: '👍';
+  }
+}
+
+.ss-dislike {
+  &:before {
+    content: '👎';
+  }
+}
+
+.ss-heart {
+  &:before {
+    content: '♥';
+  }
+}
+
+.ss-star {
+  &:before {
+    content: '⋆';
+  }
+}
+
+.ss-archive {
+  &:before {
+    content: '🗃';
+  }
+}
+
+.ss-badge {
+  &:before {
+    content: '📛';
+  }
+}
+
+.ss-trophy {
+  &:before {
+    content: '🏆';
+  }
+}
+
+.ss-medal {
+  &:before {
+    content: '🎖';
+  }
+}
+
+.ss-crown {
+  &:before {
+    content: '👑';
+  }
+}
+
+.ss-layers {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-layergroup {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-cut {
+  &:before {
+    content: '✂';
+  }
+}
+
+.ss-magicwand {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-clipboard {
+  &:before {
+    content: '📋';
+  }
+}
+
+.ss-ruler {
+  &:before {
+    content: '📏';
+  }
+}
+
+.ss-brush {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-paintroller {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-rubberstamp {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-palette {
+  &:before {
+    content: '🎨';
+  }
+}
+
+.ss-phone {
+  &:before {
+    content: '📞';
+  }
+}
+
+.ss-voicemail {
+  &:before {
+    content: '⌕';
+  }
+}
+
+.ss-megaphone {
+  &:before {
+    content: '📢';
+  }
+}
+
+.ss-at {
+  &:before {
+    content: '@';
+  }
+}
+
+.ss-reply {
+  &:before {
+    content: '↩';
+  }
+}
+
+.ss-replyall {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-mailbox {
+  &:before {
+    content: '📫';
+  }
+}
+
+.ss-send {
+  &:before {
+    content: '🖅';
+  }
+}
+
+.ss-mail {
+  &:before {
+    content: '✉';
+  }
+}
+
+.ss-inbox {
+  &:before {
+    content: '📥';
+  }
+}
+
+.ss-stamp {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-chat {
+  &:before {
+    content: '💬';
+  }
+}
+
+.ss-chats {
+  &:before {
+    content: '🗪';
+  }
+}
+
+.ss-ellipsischat {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-ellipsis {
+  &:before {
+    content: '…';
+  }
+}
+
+.ss-smile {
+  &:before {
+    content: '☻';
+  }
+}
+
+.ss-user {
+  &:before {
+    content: '👤';
+  }
+}
+
+.ss-femaleuser {
+  &:before {
+    content: '👧';
+  }
+}
+
+.ss-users {
+  &:before {
+    content: '👥';
+  }
+}
+
+.ss-baby {
+  &:before {
+    content: '👶';
+  }
+}
+
+.ss-alien {
+  &:before {
+    content: '👽';
+  }
+}
+
+.ss-ghost {
+  &:before {
+    content: '👻';
+  }
+}
+
+.ss-footsteps {
+  &:before {
+    content: '👣';
+  }
+}
+
+.ss-usergroup {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-contacts {
+  &:before {
+    content: '📇';
+  }
+}
+
+.ss-userprofile {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-cart {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-shoppingbag {
+  &:before {
+    content: '🛍';
+  }
+}
+
+.ss-gift {
+  &:before {
+    content: '🎁';
+  }
+}
+
+.ss-store {
+  &:before {
+    content: '🏪';
+  }
+}
+
+.ss-barcode {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-creditcard {
+  &:before {
+    content: '💳';
+  }
+}
+
+.ss-creditcards {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-banknote {
+  &:before {
+    content: '💵';
+  }
+}
+
+.ss-currency {
+  &:before {
+    content: '💱';
+  }
+}
+
+.ss-piggybank {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-calculator {
+  &:before {
+    content: '🖩';
+  }
+}
+
+.ss-tally {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-bank {
+  &:before {
+    content: '🏦';
+  }
+}
+
+.ss-scales {
+  &:before {
+    content: '⚖';
+  }
+}
+
+.ss-gavel {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-meeting {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-presentation {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-piechart {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-barchart {
+  &:before {
+    content: '📊';
+  }
+}
+
+.ss-activity {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-flowchart {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-stock {
+  &:before {
+    content: '🗠';
+  }
+}
+
+.ss-box {
+  &:before {
+    content: '📦';
+  }
+}
+
+.ss-crate {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-handtruck {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-home {
+  &:before {
+    content: '⌂';
+  }
+}
+
+.ss-fence {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-buildings {
+  &:before {
+    content: '🏢';
+  }
+}
+
+.ss-hotel {
+  &:before {
+    content: '🏨';
+  }
+}
+
+.ss-warehouse {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-castle {
+  &:before {
+    content: '🏰';
+  }
+}
+
+.ss-globe {
+  &:before {
+    content: '🌐';
+  }
+}
+
+.ss-earth {
+  &:before {
+    content: '🌎';
+  }
+}
+
+.ss-navigate {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-compassnavigate {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-compass {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-signpost {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-map {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-location {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-pin {
+  &:before {
+    content: '📍';
+  }
+}
+
+.ss-pushpin {
+  &:before {
+    content: '📌';
+  }
+}
+
+.ss-maplocation {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-floppydisk {
+  &:before {
+    content: '💾';
+  }
+}
+
+.ss-puzzle {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-install {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-window {
+  &:before {
+    content: '🗔';
+  }
+}
+
+.ss-windows {
+  &:before {
+    content: '🗗';
+  }
+}
+
+.ss-commandline {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-bug {
+  &:before {
+    content: '🐛';
+  }
+}
+
+.ss-database {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-music {
+  &:before {
+    content: '♫';
+  }
+}
+
+.ss-eighthnote {
+  &:before {
+    content: '♪';
+  }
+}
+
+.ss-guitar {
+  &:before {
+    content: '🎸';
+  }
+}
+
+.ss-piano {
+  &:before {
+    content: '🎹';
+  }
+}
+
+.ss-pianokeys {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-trumpet {
+  &:before {
+    content: '🎺';
+  }
+}
+
+.ss-mic {
+  &:before {
+    content: '🎤';
+  }
+}
+
+.ss-studiomic {
+  &:before {
+    content: '🎙';
+  }
+}
+
+.ss-headphones {
+  &:before {
+    content: '🎧';
+  }
+}
+
+.ss-mutevolume {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-volume {
+  &:before {
+    content: '🔈';
+  }
+}
+
+.ss-lowvolume {
+  &:before {
+    content: '🔉';
+  }
+}
+
+.ss-highvolume {
+  &:before {
+    content: '🔊';
+  }
+}
+
+.ss-ipod {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-stereo {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-speaker {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-vinylrecord {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-disc {
+  &:before {
+    content: '💿';
+  }
+}
+
+.ss-playlist {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-airplay {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-camera {
+  &:before {
+    content: '📷';
+  }
+}
+
+.ss-picture {
+  &:before {
+    content: '🌄';
+  }
+}
+
+.ss-pictures {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-video {
+  &:before {
+    content: '📹';
+  }
+}
+
+.ss-film {
+  &:before {
+    content: '🎞';
+  }
+}
+
+.ss-filmroll {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-widescreenfilm {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-clapboard {
+  &:before {
+    content: '🎬';
+  }
+}
+
+.ss-tv {
+  &:before {
+    content: '📺';
+  }
+}
+
+.ss-flatscreen {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-videogame {
+  &:before {
+    content: '🎮';
+  }
+}
+
+.ss-repeat {
+  &:before {
+    content: '🔁';
+  }
+}
+
+.ss-replay {
+  &:before {
+    content: '↺';
+  }
+}
+
+.ss-shuffle {
+  &:before {
+    content: '🔀';
+  }
+}
+
+.ss-filecabinet {
+  &:before {
+    content: '🗄';
+  }
+}
+
+.ss-storagebox {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-index {
+  &:before {
+    content: '🗂';
+  }
+}
+
+.ss-page {
+  &:before {
+    content: '📃';
+  }
+}
+
+.ss-book {
+  &:before {
+    content: '📕';
+  }
+}
+
+.ss-openbook {
+  &:before {
+    content: '📖';
+  }
+}
+
+.ss-notebook {
+  &:before {
+    content: '📓';
+  }
+}
+
+.ss-spiralbound {
+  &:before {
+    content: '🗒';
+  }
+}
+
+.ss-newspaper {
+  &:before {
+    content: '📰';
+  }
+}
+
+.ss-notepad {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-cards {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-notice {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-grid {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-rows {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-menu {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-filter {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-ascending {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-descending {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-desktop {
+  &:before {
+    content: '💻';
+  }
+}
+
+.ss-laptop {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-tablet {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-smartphone {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-cell {
+  &:before {
+    content: '📱';
+  }
+}
+
+.ss-battery {
+  &:before {
+    content: '🔋';
+  }
+}
+
+.ss-door {
+  &:before {
+    content: '🚪';
+  }
+}
+
+.ss-washer {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-birdhouse {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-doghouse {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-lightbulb {
+  &:before {
+    content: '💡';
+  }
+}
+
+.ss-lamp {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-spraycan {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-spraybottle {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-chair {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-frame {
+  &:before {
+    content: '🖼';
+  }
+}
+
+.ss-flowerframe {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-atom {
+  &:before {
+    content: '⚛';
+  }
+}
+
+.ss-telescope {
+  &:before {
+    content: '🔭';
+  }
+}
+
+.ss-balloon {
+  &:before {
+    content: '🎈';
+  }
+}
+
+.ss-fuzzydice {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-magiclamp {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-slingshot {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-bomb {
+  &:before {
+    content: '💣';
+  }
+}
+
+.ss-gun {
+  &:before {
+    content: '🔫';
+  }
+}
+
+.ss-sword {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-swords {
+  &:before {
+    content: '⚔';
+  }
+}
+
+.ss-bowandarrow {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-targetdummy {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-downloadcloud {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-download {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-downloadbox {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-uploadcloud {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-upload {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-merge {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-fork {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-joinpath {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-splitpath {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-forkpath {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-refresh {
+  &:before {
+    content: '↻';
+  }
+}
+
+.ss-sync {
+  &:before {
+    content: '🗘';
+  }
+}
+
+.ss-wifi {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-connection {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-file {
+  &:before {
+    content: '📄';
+  }
+}
+
+.ss-files {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-folder {
+  &:before {
+    content: '📁';
+  }
+}
+
+.ss-anchor {
+  &:before {
+    content: '⚓';
+  }
+}
+
+.ss-print {
+  &:before {
+    content: '⎙';
+  }
+}
+
+.ss-list {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-starlist {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-layout {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-twoup {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-threeup {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-fourup {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-action {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-expand {
+  &:before {
+    content: '⤢';
+  }
+}
+
+.ss-contract {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-lifepreserver {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-help {
+  &:before {
+    content: '❓';
+  }
+}
+
+.ss-info {
+  &:before {
+    content: 'ℹ';
+  }
+}
+
+.ss-alert {
+  &:before {
+    content: '⚠';
+  }
+}
+
+.ss-plus {
+  &:before {
+    content: '+';
+  }
+}
+
+.ss-hyphen {
+  &:before {
+    content: '-';
+  }
+}
+
+.ss-check {
+  &:before {
+    content: '✓';
+  }
+}
+
+.ss-fish {
+  &:before {
+    content: '🐟';
+  }
+}
+
+.ss-whale {
+  &:before {
+    content: '🐋';
+  }
+}
+
+.ss-bird {
+  &:before {
+    content: '🐦';
+  }
+}
+
+.ss-pawprint {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-bone {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-tree {
+  &:before {
+    content: '🌲';
+  }
+}
+
+.ss-flower {
+  &:before {
+    content: '⚘';
+  }
+}
+
+.ss-gem {
+  &:before {
+    content: '💎';
+  }
+}
+
+.ss-mountains {
+  &:before {
+    content: '⛰';
+  }
+}
+
+.ss-settings {
+  &:before {
+    content: '⚙';
+  }
+}
+
+.ss-dashboard {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-dial {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-notifications {
+  &:before {
+    content: '🔔';
+  }
+}
+
+.ss-toggles {
+  &:before {
+    content: '🎚';
+  }
+}
+
+.ss-switch {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-brightness {
+  &:before {
+    content: '🔆';
+  }
+}
+
+.ss-contrast {
+  &:before {
+    content: '◐';
+  }
+}
+
+.ss-flash {
+  &:before {
+    content: '⌁';
+  }
+}
+
+.ss-magnet {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-level {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-toolbox {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-hammer {
+  &:before {
+    content: '🔨';
+  }
+}
+
+.ss-wrench {
+  &:before {
+    content: '🔧';
+  }
+}
+
+.ss-nut {
+  &:before {
+    content: '🔩';
+  }
+}
+
+.ss-screw {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-clock {
+  &:before {
+    content: '⏲';
+  }
+}
+
+.ss-stopwatch {
+  &:before {
+    content: '⏱';
+  }
+}
+
+.ss-alarmclock {
+  &:before {
+    content: '⏰';
+  }
+}
+
+.ss-counterclockwise {
+  &:before {
+    content: '⥀';
+  }
+}
+
+.ss-calendar {
+  &:before {
+    content: '📅';
+  }
+}
+
+.ss-food {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-egg {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-chickenleg {
+  &:before {
+    content: '🍗';
+  }
+}
+
+.ss-pizza {
+  &:before {
+    content: '🍕';
+  }
+}
+
+.ss-birthdaycake {
+  &:before {
+    content: '🎂';
+  }
+}
+
+.ss-icecream {
+  &:before {
+    content: '🍨';
+  }
+}
+
+.ss-popsicle {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-coffee {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-mug {
+  &:before {
+    content: '☕';
+  }
+}
+
+.ss-beer {
+  &:before {
+    content: '🍺';
+  }
+}
+
+.ss-bottle {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-wineglass {
+  &:before {
+    content: '🍷';
+  }
+}
+
+.ss-wine {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-cocktail {
+  &:before {
+    content: '🍸';
+  }
+}
+
+.ss-cup {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-waterbottle {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-utensils {
+  &:before {
+    content: '🍴';
+  }
+}
+
+.ss-measuringcup {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-helmet {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-graduationcap {
+  &:before {
+    content: '🎓';
+  }
+}
+
+.ss-glasses {
+  &:before {
+    content: '👓';
+  }
+}
+
+.ss-sunglasses {
+  &:before {
+    content: '🕶';
+  }
+}
+
+.ss-tie {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-bowtie {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-tshirt {
+  &:before {
+    content: '👕';
+  }
+}
+
+.ss-jersey {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-sock {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-handbag {
+  &:before {
+    content: '👜';
+  }
+}
+
+.ss-briefcase {
+  &:before {
+    content: '💼';
+  }
+}
+
+.ss-messengerbag {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-hanger {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-safetypin {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-thermometer {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-cloud {
+  &:before {
+    content: '☁';
+  }
+}
+
+.ss-sun {
+  &:before {
+    content: '☀';
+  }
+}
+
+.ss-partlycloudy {
+  &:before {
+    content: '⛅';
+  }
+}
+
+.ss-rain {
+  &:before {
+    content: '🌧';
+  }
+}
+
+.ss-thunderstorm {
+  &:before {
+    content: '⛈';
+  }
+}
+
+.ss-snow {
+  &:before {
+    content: '🌨';
+  }
+}
+
+.ss-umbrella {
+  &:before {
+    content: '☂';
+  }
+}
+
+.ss-crescentmoon {
+  &:before {
+    content: '🌙';
+  }
+}
+
+.ss-planet {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-recycle {
+  &:before {
+    content: '♲';
+  }
+}
+
+.ss-outlet {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-car {
+  &:before {
+    content: '🚘';
+  }
+}
+
+.ss-train {
+  &:before {
+    content: '🚆';
+  }
+}
+
+.ss-bus {
+  &:before {
+    content: '🚍';
+  }
+}
+
+.ss-trailer {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-plane {
+  &:before {
+    content: '✈';
+  }
+}
+
+.ss-boat {
+  &:before {
+    content: '🚢';
+  }
+}
+
+.ss-sailboat {
+  &:before {
+    content: '⛵';
+  }
+}
+
+.ss-boat {
+  &:before {
+    content: '🚢';
+  }
+}
+
+.ss-schooner {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-rocket {
+  &:before {
+    content: '🚀';
+  }
+}
+
+.ss-satellite {
+  &:before {
+    content: '🛰';
+  }
+}
+
+.ss-ufo {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-helm {
+  &:before {
+    content: '⎈';
+  }
+}
+
+.ss-fuel {
+  &:before {
+    content: '⛽';
+  }
+}
+
+.ss-firehydrant {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-theatre {
+  &:before {
+    content: '🎭';
+  }
+}
+
+.ss-ticket {
+  &:before {
+    content: '🎫';
+  }
+}
+
+.ss-golf {
+  &:before {
+    content: '⛳';
+  }
+}
+
+.ss-golfshot {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-basketball {
+  &:before {
+    content: '🏀';
+  }
+}
+
+.ss-hockeymask {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-billiards {
+  &:before {
+    content: '🎱';
+  }
+}
+
+.ss-baseball {
+  &:before {
+    content: '⚾';
+  }
+}
+
+.ss-baseballfield {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-tennis {
+  &:before {
+    content: '🎾';
+  }
+}
+
+.ss-tabletennis {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-boxing {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-bowling {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-football {
+  &:before {
+    content: '🏈';
+  }
+}
+
+.ss-soccer {
+  &:before {
+    content: '⚽';
+  }
+}
+
+.ss-dumbbell {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-fishhook {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-gameplan {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-hiker {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-runner {
+  &:before {
+    content: '🏃';
+  }
+}
+
+.ss-pedestrian {
+  &:before {
+    content: '🚶';
+  }
+}
+
+.ss-callbell {
+  &:before {
+    content: '🛎';
+  }
+}
+
+.ss-shower {
+  &:before {
+    content: '🚿';
+  }
+}
+
+.ss-bandage {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-pill {
+  &:before {
+    content: '💊';
+  }
+}
+
+.ss-flask {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-testtube {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-pulse {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-up {
+  &:before {
+    content: '⬆';
+  }
+}
+
+.ss-right {
+  &:before {
+    content: '➡';
+  }
+}
+
+.ss-down {
+  &:before {
+    content: '⬇';
+  }
+}
+
+.ss-left {
+  &:before {
+    content: '⬅';
+  }
+}
+
+.ss-rightward {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-leftward {
+  &:before {
+    content: '';
+  }
+}
+
+.ss-squiggle {
+  &:before {
+    content: '⇝';
+  }
+}
+
+.ss-retweet {
+  &:before {
+    content: '';
+  }
+}

@@ -1,0 +1,76 @@
+/*
+@media screen and (max-width: 320px) {
+    img.responsive {
+        max-width: 270px !important;
+        height: auto !important;
+    }
+    .text figure figcaption {
+        max-width: 270px !important;
+    }
+}    
+
+@media screen and (max-width: 320px) {
+    .
+}*/
+
+/*@media screen and (min-width: 480px) {
+    img.responsive {
+        max-width: 400px !important;
+        height: auto !important;
+    }
+    .text figure figcaption {
+        max-width: 400px !important;
+    }
+}*/
+
+/*@media screen and (min-width: 768px) {
+    img.responsive {
+        max-width: 700px !important;
+        height: auto !important;
+    }
+    .text figure figcaption {
+        max-width: 700px !important;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    img.responsive {
+        max-width: 980px !important;
+        height: auto !important;
+    }
+    .text figure figcaption {
+        max-width: 980px !important;
+    }
+}*/
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 16px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    border: 1px solid #D1D1D1;
+    padding: 6px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+
+
+/*
+
+
+.textoportada {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+    color: #ff2600;
+    font-style: normal;
+    font-size: 1.1428571429em;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out
+}
+*/

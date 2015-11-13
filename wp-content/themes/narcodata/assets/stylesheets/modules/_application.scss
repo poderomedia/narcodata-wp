@@ -1,0 +1,1005 @@
+body { 
+	font-size: ($font-size-base / 16px) * 100%;
+	font-family: $font-family-primary;
+	color: $color-base;
+	background: $color-lightgrey;
+}
+
+.wrapSite {
+	position: relative;
+	z-index: 0;
+	@include transition(transform 400ms);
+	padding: (70px + 50px) 0 0 0;
+	@include breakpoint($max, $m-screen) {
+		padding: 70px 0 0 0;
+	}
+	@include breakpoint($max, $xs-screen) {
+		padding: 40px 0 0 0;
+	}
+}
+
+.row {
+	width: $grid-width;
+	margin: 0 auto;
+	@include clearfix;
+	@include breakpoint($max, $xl-screen) {
+		width: auto;
+		padding-right: 30px !important;
+		padding-left: 30px !important;
+	}
+	@include breakpoint($max, $s-screen) {
+		width: auto;
+		padding-right: 10px !important;
+		padding-left: 10px !important;
+	}
+}
+
+.wrap {
+	padding: 0 0 20px;
+}
+
+
+
+.row-module {
+	padding: 20px 0;
+	.row {
+		padding: 20px 0;
+	}
+	@include breakpoint($max, $s-screen) {
+		padding: 10px 0;
+		.row {
+			padding: 10px 0;
+		}
+	}
+}
+
+h3.animalPolitico {
+	display: block;
+	width: 31px;
+	height: 40px;
+	background: url(../images/animalpolitico-isotipo.png) no-repeat center center;
+	background-size: 100% auto;
+	text-indent: -9999em;
+	overflow: hidden;
+	float: left;
+	margin: 0 20px 0 0;
+	@include breakpoint($max, $xs-screen) {
+		width: 15px;
+		margin: 0 10px 0 0;
+	}
+}
+
+h2.narcoData {
+	position: relative;
+	display: block;
+	width: 205px;
+	height: 40px;
+	float: left;
+	@include breakpoint($max, $s-screen) {
+		width: 180px;
+	}
+	@include breakpoint($max, $xs-screen) {
+		width: 120px;
+	}
+	a {
+		display: block;
+		@include position(absolute, 0px 0px 0px 0px);
+		text-indent: -9999em;
+		overflow:hidden;
+		background: url(../images/narcodata.png) no-repeat center center;
+		background-size: 100% auto;
+	}
+}
+
+
+header {
+	position: relative;
+	@include position(fixed, 0px 0px 0 0px, 1000);
+	background: $color-lightgrey;
+	z-index: 1000;
+
+
+
+
+	.search-form {
+		position: relative;
+		margin: 0 auto;
+		max-width: 500px;
+		height: 56px;
+		@include breakpoint($max, 880px) {
+			height: 40px;
+		}
+		input {
+			&.search-field {
+				background: $color-lightgrey;
+				height: 56px;
+				width: 100%;
+				padding: 0 60px 0 10px;
+				font-size: em(24px);
+				font-weight: bold;
+				position: relative;
+				z-index: 0;
+				@include breakpoint($max, 880px) {
+					height: 40px;
+					font-size: em(16px);
+					padding-right: 40px;
+				}
+			}
+			&.search-submit {
+				width: 40px;
+				border: none;
+				padding: 0;
+				margin: 0;
+				height: 40px;
+				background: $color-primary; 
+				color: white;
+				font-weight: bold;
+				font-size: em(16px);
+				font-family: $font-family-secondary;
+				@include prefix(border-radius, 50%);
+				@include transition(background $transition);
+				@include position(absolute, 50% 10px 0 0);
+				margin: -20px 0;
+				cursor: pointer;
+				&:hover {
+					background: $color-secondary;
+				}
+				@include breakpoint($max, 880px) {
+					width: 30px;
+					height: 30px;
+					margin: -15px 0;
+					font-size: em(14px);
+					right: 5px;
+				}
+			}
+		}
+	}
+
+
+
+	.headerTop {
+		background: $color-secondary;
+		padding: 15px 0 0 0;
+		@include prefix(box-sizing, border-box);
+		height: 70px;
+		@include breakpoint($max, $xs-screen) {
+			height: 40px;
+			padding: 0;
+		}
+		nav.headerTop-nav {
+			float: right; 
+			height: 40px;
+			@include clearfix;
+			li {
+				float: left;
+				a {
+					position: relative;
+					display: block;
+					width: 40px;
+					height: 40px;
+					text-indent: -9999em;
+					overflow: hidden;
+					color: white;
+					&:hover {
+						color: lighten($color-secondary, 70%);
+					}
+					i {
+						@include position(absolute, 50% 0 0 50%);
+						&.icon-16 {
+							margin: -8px;
+						}
+						&.icon-32 {
+							margin: -16px;
+							@include breakpoint($max, $xs-screen) {
+								margin: -8px;
+							}
+						}
+					}
+				}
+				&.headerTop-nav-social {
+					@include breakpoint($max, 880px) {
+						margin: 0 10px 0 0;
+						a {
+							width: 16px;
+						}
+					}
+				}
+				&.headerTop-search {
+					margin: 0 0 0 30px;
+					@include breakpoint($max, 880px) {
+						margin: 0 10px 0 0;
+						display: none;
+					}
+					@include breakpoint($max, $xs-screen) {
+						margin: 0;
+					}
+				}
+				&.headerTop-menuMobile {
+					display: none;
+					@include breakpoint($max, 880px) {
+						display: block;
+					}
+				}
+				&.headerTop-search,
+				&.headerTop-menuMobile {
+					a {
+						color: $color-primary;
+						&:hover {
+							color: lighten($color-primary, 10%);
+						}
+						i {
+							@include breakpoint($max, $xs-screen) {
+								width: 16px;
+								height: 16px;
+								font-size: 16px;
+							}
+						}
+					}
+					
+				}
+
+			}
+		}
+	}
+	nav.headerNav {
+		border-left: 10px solid $color-primary;
+		border-right: 10px solid $color-primary;
+		height: 50px;
+		@include breakpoint($max, 880px) {
+			display: none;
+		}
+		ul {
+			text-align: center;
+			li {
+				display: inline-block;
+			}
+		}
+		a {
+			font-size: em(16px);
+			font-weight: bold;
+			display: inline-block;
+			height: 50px;
+			line-height: 50px;
+			padding: 0 15px;
+			@extend .link-primary;
+			@include breakpoint($max, $m-screen) {
+				padding: 0 10px;
+				font-size: em(14px);
+			}
+		}
+	}
+}
+
+
+
+footer {
+	background: $color-secondary;
+
+	.narcoData {
+		@include breakpoint($max, $m-screen) {
+			margin-bottom: 20px;
+		}
+	}
+
+	.col3, .col4, .col2 {
+		@include breakpoint($max, $m-screen) {
+			width: column-flex(12);
+		}
+	}
+	.col4 {
+		@include breakpoint($max, $m-screen) {
+			margin-top: 20px;
+		}
+	}
+	.col2 {
+		@include breakpoint($max, $m-screen) {
+			margin-top: 20px;
+		}
+	}
+
+
+	h6 {
+		font-size: em(12px);
+		text-transform: uppercase;
+		margin: 0 0 20px;
+		@include breakpoint($max, $m-screen) {
+			margin: 0 0 15px;
+			font-size: em(11px);
+			text-transform: lowercase;
+		}
+	}
+	a {
+		color: white;
+	}
+	hr {
+		background: lighten($color-secondary, 15%);
+		margin: 0 10px 40px;
+		@include breakpoint($max, $m-screen) {
+			margin: 0 10px 20px;
+		}
+	}
+	ul {
+		li {
+			position: relative;
+			margin: 0 0 12px;
+			&:last-child {
+				margin: 0;
+			}
+			&.with-icon {
+				padding-left: 26px;
+				i {
+					&.icon-16 {
+						@include position(absolute, 50% 0 0 0px);
+						margin: -8px 0;
+					}
+				}
+			}
+		}
+	}
+	.footerBottom {
+		@include breakpoint($max, $xs-screen) {
+			font-size: em(11px);
+		}
+		p {
+			margin: 0;
+			span {
+				display: inline-block;
+				padding: 0 10px;
+			}
+			@include breakpoint($max, $s-screen) {
+				margin: 0 0 10px;
+			} 
+		}
+		.col6 {
+			@include breakpoint($max, $s-screen) {
+				width: column-flex(12);
+				text-align: left !important;
+			}
+		}
+	}
+}
+
+
+
+.logoList {
+	@include clearfix;
+	.logoList-item {
+		float: left;
+		margin: 0 20px 0 0;
+		height: 40px;
+		img {
+			height: 40px;
+		}
+		&:last-child {
+			margin: 0;
+		}
+	}
+}
+
+
+
+.headingTop {
+	border-left: 10px solid $color-primary;
+	border-right: 10px solid $color-primary;
+	border-top: 1px solid $color-primary;
+	padding: 0 20px 0px;
+	margin: 0 0 20px 0;
+	height: 25px;
+	text-align: center;
+	span {
+		position: relative;
+		top: -14px;
+		display: inline-block;
+		height: 25px;
+		line-height: 25px;
+		color: $color-primary;
+		padding: 0 20px;
+		background: $color-lightgrey;
+		font-style: oblique;
+		font-size: em(16px);
+	}
+}
+
+
+.heading {
+	margin: 0 0 40px;
+	h1 {
+		font-family: $font-family-secondary;
+		color: $color-secondary;
+		font-size: em(48px);
+		line-height: 1.3em;
+		@include breakpoint($max, $m-screen) {
+			font-size: em(36px);
+		}
+		@include breakpoint($max, $s-screen) {
+			font-size: em(24px);
+		}
+	}
+	h2 {
+		font-family: $font-family-secondary;
+		color: $color-secondary;
+		font-size: em(24px);
+		color: $color-primary;
+		line-height: 1.4em;
+		@include breakpoint($max, $s-screen) {
+			font-size: em(18px);
+		}
+	}
+	p {
+		font-size: em(16px);
+		line-height: 1.5em;
+		margin: 15px 0 0 0;
+		color: #23282D;
+	}
+	.headingMeta {
+		@include clearfix;
+		padding: 40px 0 0 0;
+		font-size: em(12px);
+		line-height: 1.5em;
+		@include breakpoint($max, $xs-screen) {
+			padding: 20px 0 0 0;
+		}
+		ul {
+			@include clearfix;
+			color: $color-primary;
+			a {
+				@extend .link-primary;
+				font-weight: bold;
+			}
+			li {
+				&.right {
+					@include breakpoint($max, $xs-screen) {
+						float: none !important;
+					}
+				}
+			}
+		}
+	}
+	.shareSocial {
+		padding: 15px 0 0 0;
+	}
+}
+
+
+
+.sectionNewsletters {
+	background: $color-primary;
+	padding: 0;
+	@include breakpoint($max, $s-screen) {
+		padding: 20px 10px;
+	}
+	form {
+		@include clearfix;
+		position: relative;
+	}
+	.col8,
+	.col4 {
+		position: relative;
+		height: 90px;
+		@include breakpoint($max, $s-screen) {
+			height: auto;
+		}
+	}
+	.col8 {
+		@include breakpoint($max, $m-screen) {
+			width: column-flex(6);
+		}
+		@include breakpoint($max, $s-screen) {
+			width: column-flex(12);
+			padding-bottom: 20px;
+		}
+	}
+	.col4 {
+		padding-right: 0px;
+		@include breakpoint($max, $m-screen) {
+			width: column-flex(6);
+		}
+		@include breakpoint($max, $s-screen) {
+			width: column-flex(12);
+			padding-right: 10px;
+		}
+	}
+	h6 {
+		font-size: em(24px);
+		margin: 0 0 8px 0;
+		padding: 20px 20px 0 0;
+		color: white;
+		font-family: $font-family-secondary;
+		@include breakpoint($max, $s-screen) {
+			padding-top: 0px;
+			text-align: center;
+			font-size: em(18px);
+		}
+	}
+	p {
+		color: lighten($color-primary, 30%);
+		display: block;
+		padding: 0 20px 0 0;
+		line-height: 1.5em;
+		margin: 0;
+		@include breakpoint($max, $s-screen) {
+			padding: 0;
+			text-align: center;
+			font-size: em(13px);
+		}
+	}
+	.col4 {
+		input {
+			position: relative;
+			background: white;
+			height: 90px;
+			font-size: em(24px);
+			font-weight: bold;
+			padding: 0 90px 0 20px;
+			@include breakpoint($max, $s-screen) {
+				height: 40px;
+				font-size: em(16px);
+				padding: 0 40px 0 10px;
+			}
+		}
+	}
+	.form-actions {
+		width: 60px;
+		height: 60px;
+		@include position(absolute, 50% 15px 0 0);
+		margin: -30px 0;
+		input {
+			width: 60px;
+			height: 60px;
+			font-size: em(16px);
+			font-family: $font-family-secondary;
+			font-weight: bold;
+			cursor: pointer;
+			@include breakpoint($max, $s-screen) {
+				width: 30px;
+				height: 30px;
+				font-size: em(13px);
+			}
+		}
+		a, input {
+			display: block;
+			background: $color-primary;
+			color: white;
+			margin: 0;
+			padding: 0;
+			border: none;
+			@include prefix(border-radius, 50%);
+			@include transition(background $transition);
+			@include position(absolute, 0px 0px 0px 0px);
+			i {
+				@include position(absolute, 50% 0 0 50%);
+				margin:  -16px;
+			}
+			&:hover {
+				background: $color-secondary;
+			}
+		}
+		@include breakpoint($max, $s-screen) {
+			width: 30px;
+			height: 30px;
+			top: auto;
+			margin: 0;
+			bottom: 5px;
+			a {
+				i {
+					width: 16px;
+					height: 16px;
+					margin: -8px;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
+
+.sectionArticle,
+.sectionComments {
+	.col10.prefix1 {
+		@include breakpoint($max, $m-screen) {
+			width: column-flex(12);
+			margin: 0;
+		}
+	}
+}
+
+.goTop {
+	display: none;
+	@include breakpoint($max, $s-screen) {
+		display: block;
+	}
+	a {
+		position: relative;
+		@extend .link-primary;
+		font-weight: bold;
+		display: block;
+		height: 40px;
+		line-height: 40px;
+		font-size: em(14px);
+		text-align: center;
+		i {
+			@include position(absolute, 50% 0 0 0px);
+			margin: -8px 0;
+		}
+	}
+}
+
+
+.sectionListItem {
+	@include clearfix;
+	margin: 0 -10px;
+	&.sectionListItem--3 {
+		.sectionItem {
+			width: 33.3333%;
+			@include breakpoint($min, $m-screen) {
+			  &:nth-child(3n+4) {
+			    clear: both;
+			  }
+			}
+			@include breakpoint($max, $m-screen) {
+			  width: 50%;
+			  &:nth-child(2n+3) {
+			    clear: both;
+			  }
+			}
+			@include breakpoint($max, $xs-screen + 120px) {
+			  width: 100%;
+			  float: none;
+			  clear: both;
+			}
+		}
+	}
+
+	.sectionItem {
+		@include prefix(box-sizing, border-box);
+		padding: 10px;
+		float: left;
+		a {
+			position: relative;
+			display: block;
+			width: 100%;
+			height: 0px;
+			padding-bottom: 100%;
+			@include breakpoint($max, $xs-screen + 120px) {
+				padding-bottom: 50%;
+			}
+			@include breakpoint($max, $xs-screen) {
+				padding-bottom: 100%;
+			}
+			background: white;
+			overflow: hidden;
+			@include transition(background $transition, box-shadow $transition);
+			@include prefix(box-shadow, rgba(black, .03) 0 0 5px 2px);
+			.sectionItem-wrap {
+				@include position(absolute, 0px 0px 0px 0px);
+				border-top: 2px solid $color-primary;
+				text-align: center;
+				.sectionItem-body {
+					h2 {
+						font-size: em(16px);
+						font-family: $font-family-secondary;
+						color: $color-secondary;
+						line-height: 1.5em;
+						@include transition(color $transition);
+						@include breakpoint($max, $m-screen) {
+							font-size: em(14px);
+						}
+					}
+					p {
+						color: $color-base;
+						margin: 0;
+						line-height: 1.5em;
+						@include breakpoint($max, $m-screen) {
+							font-size: em(11px);
+						}
+					}
+				}
+			}
+			&:hover {
+				@include prefix(box-shadow, rgba(black, .07) 0 0 10px 2px);
+			}
+		}
+		&.sectionItem--large {
+			width: 66.6666%;
+			a {
+				padding-bottom: 48.7%;
+			}
+			@include breakpoint($max, $m-screen) {
+				width: 50%;
+				a {
+					padding-bottom:100%;
+				}
+			}
+			@include breakpoint($max, $xs-screen + 120px) {
+				width: 100%;
+				float: none;
+				a {
+					padding-bottom: 50%;
+				}
+			}
+			@include breakpoint($max, $xs-screen ) {
+				a {
+					padding-bottom: 100%;
+				}
+			}
+		}
+		&.sectionItem--min {
+			width: 33.3333%;
+			a {
+				padding-bottom: 100%;
+			}
+			@include breakpoint($max, $m-screen) {
+				width: 50%;
+			}
+			@include breakpoint($max, $xs-screen + 120px) {
+				width: 100%;
+				float: none;
+				a {
+					padding-bottom: 50%;
+				}
+			}
+			@include breakpoint($max, $xs-screen ) {
+				a {
+					padding-bottom: 100%;
+				}
+			}
+		}
+		&.sectionItem--display {
+			a {
+				.sectionItem-wrap {
+					.sectionItem-body {
+						@include position(absolute, 0px 0px 0px 0px);
+						padding: 20px;
+					}
+					.sectionItem-photo {
+						position: relative;
+						width: 130px;
+						height: 130px;
+						margin: 30px auto;
+						@include prefix(border-radius, 50%);
+						figure {
+							@include position(absolute, 0px 0px 0px 0px);
+							@include prefix(border-radius, 50%);
+							img {
+								display: block;
+								width: 100% !important;
+								height: 100% !important;
+								@include prefix(border-radius, 50%);
+							}
+						}
+						@include breakpoint($max, $l-screen) {
+							width: 100px;
+							height: 100px;
+							margin: 20px auto;
+						}
+						@include breakpoint($max, ($l-screen - 100px)) {
+							width: 60px;
+							height: 60px;
+						}
+						@include breakpoint($max, $m-screen) {
+							width: 130px;
+							height: 130px;
+						}
+						@include breakpoint($max, 870px) {
+							width: 100px;
+							height: 100px;
+							margin: 20px auto;
+						}
+						@include breakpoint($max, $s-screen) {
+							width: 60px;
+							height: 60px;
+							margin: 10px auto;
+						}
+					}
+					.sectionItem-label {
+						color: $color-primary;
+						font-style: oblique;
+						font-size: em(16px);
+					}
+				}
+				&:hover {
+					.sectionItem-body {
+						h2 {
+							color: $color-primary;
+						}
+					}
+				}
+			}
+		}
+
+		&.sectionItem--section {
+			a {
+				.sectionItem-wrap {
+					.sectionItem-icon {
+						width: 50px;
+						height: 50px;
+						background: $color-primary;
+						@include position(absolute, 30px 0 0 30px, 1);
+						@include prefix(border-radius, 50%);
+						@include transition(all $transition);
+						color: white;
+						i {
+							@include position(absolute, 50% 0 0 50%);
+							margin: -8px;
+						}
+					}
+					.sectionItem-body {
+						@include position(absolute, 0px 0px 0px 0px, 0);
+						padding: 20px;
+						h2 {
+							font-size: em(18px);
+						}
+					}
+					.sectionItem-actions {
+						@include position(absolute, 0 30px 40px 30px, 1);
+						span {
+							position: relative;
+							display: inline-block;
+							padding-right: 20px;
+							color: $color-primary;
+							font-style: oblique;
+							font-size: em(16px);
+							@include transition(all $transition);
+							i {
+								@include position(absolute, 50% 0px 0 0);
+								margin: -8px 0;
+							}
+						}
+					}
+				}
+				&:hover {
+					background: $color-primary;
+					.sectionItem-wrap {
+						.sectionItem-icon {
+							background: white;
+							color: $color-primary;
+						}
+						.sectionItem-body {
+							h2 {
+								color: white;
+							}
+						}
+						.sectionItem-actions {
+							span {
+								color: white;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		&.sectionItem--new {
+			a {
+				.sectionItem-wrap {
+					border-top: none;
+					figure {
+						width: 200px;
+						@include position(absolute, 0px 0 0px 0px, 0);
+						background-size: cover;
+						background-repeat: no-repeat;
+						background-position: center center;
+						@include breakpoint($max, $m-screen) {
+							width: 100px;
+						}
+					}
+					.sectionItem-body {
+						@include position(absolute, 0px 0px 0px 200px, 1);
+						text-align: left;
+						padding: 40px;
+						@include breakpoint($max, $m-screen) {
+							left: 100px;
+							padding: 20px;
+						}
+						h1 {
+							font-size: em(32px);
+							font-family: $font-family-secondary;
+							color: $color-secondary;
+							line-height: 1.3em;
+							@include transition(all $transition);
+							em {
+								font-weight: normal;
+								font-style: normal;
+							}
+							margin: 0 0 10px 0;
+							@include breakpoint($max, 1130px) {
+								font-size: em(24px);
+							}
+							@include breakpoint($max, 1095px) {
+								font-size: em(18px);
+							}
+						}
+						span {
+							position: relative;
+							display: inline-block;
+							padding-right: 20px;
+							color: $color-primary;
+							font-style: oblique;
+							font-size: em(16px);
+							@include transition(all $transition);
+							i {
+								@include position(absolute, 50% 0px 0 0);
+								margin: -8px 0;
+							}
+						}
+					}
+				}
+				&:hover {
+					.sectionItem-wrap {
+						.sectionItem-body {
+							h1 {
+								color: $color-primary;
+							}
+							span {
+								color: $color-secondary;
+							}
+						}
+					}
+				}
+			}
+		}
+
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+.infoList {
+	margin: 0 0 20px 0;
+	.infoList-title {
+		margin: 0 0 20px;
+		h6 {
+			font-family: $font-family-secondary;
+			color: $color-primary;
+			font-size: em(16px);
+		}
+	}
+	.infoList-item {
+		background: white;
+		margin-bottom: 1px;
+		padding: 20px;
+		@include prefix(box-shadow, rgba(0,0,0,0.03) 0 0 5px 2px);
+		@include clearfix;
+		.infoListPhoto {
+			width: 100px;
+			height: 100px;
+			float: left;
+			@include prefix(border-radius, 50%);
+			img {
+				width: 100%;
+				height: 100%;
+				@include prefix(border-radius, 50%);
+			}
+		}
+		.infoListBody {
+			margin: 0 0 0 120px;
+			width: 100%;
+			h6 {
+				font-size: em(16px);
+				font-family: $font-family-secondary;
+				color: $color-secondary;
+				line-height: 1.5em;
+				span {
+					font-style: oblique;
+					font-weight: normal;
+				}
+				margin: 0 0 5px 0;
+			}
+			h5 {
+				line-height: 1.5em;
+			}
+			a {
+				@extend .link-primary;
+			}
+		}
+	}
+}

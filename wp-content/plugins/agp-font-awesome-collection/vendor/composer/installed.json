@@ -1,0 +1,164 @@
+[
+    {
+        "name": "oyejorge/less.php",
+        "version": "v1.7.0.5",
+        "version_normalized": "1.7.0.5",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/oyejorge/less.php.git",
+            "reference": "4385036b1dbfaf37f5380bd26a1e6006fc43149f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/oyejorge/less.php/zipball/4385036b1dbfaf37f5380bd26a1e6006fc43149f",
+            "reference": "4385036b1dbfaf37f5380bd26a1e6006fc43149f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2015-07-13 20:34:18",
+        "bin": [
+            "bin/lessc"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Less": "lib/"
+            },
+            "classmap": [
+                "lessc.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Matt Agar",
+                "homepage": "https://github.com/agar"
+            },
+            {
+                "name": "Martin Jantošovič",
+                "homepage": "https://github.com/Mordred"
+            },
+            {
+                "name": "Josh Schmidt",
+                "homepage": "https://github.com/oyejorge"
+            }
+        ],
+        "description": "PHP port of the Javascript version of LESS http://lesscss.org",
+        "homepage": "http://lessphp.gpeasy.com",
+        "keywords": [
+            "css",
+            "less",
+            "less.js",
+            "lesscss",
+            "php",
+            "stylesheet"
+        ]
+    },
+    {
+        "name": "mustangostang/spyc",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mustangostang/spyc.git",
+            "reference": "eeb9f7c47e1457770d64c7fb1f3d4aabff52de4b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mustangostang/spyc/zipball/eeb9f7c47e1457770d64c7fb1f3d4aabff52de4b",
+            "reference": "eeb9f7c47e1457770d64c7fb1f3d4aabff52de4b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.1"
+        },
+        "time": "2014-08-21 09:14:01",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.5.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "Spyc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "mustangostang",
+                "email": "vlad.andersen@gmail.com"
+            }
+        ],
+        "description": "A simple YAML loader/dumper class for PHP",
+        "homepage": "https://github.com/mustangostang/spyc/",
+        "keywords": [
+            "spyc",
+            "yaml",
+            "yml"
+        ]
+    },
+    {
+        "name": "components/font-awesome",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/font-awesome.git",
+            "reference": "7dffacc72e566e5db6272244effc06f64fe9f185"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/font-awesome/zipball/7dffacc72e566e5db6272244effc06f64fe9f185",
+            "reference": "7dffacc72e566e5db6272244effc06f64fe9f185",
+            "shasum": ""
+        },
+        "time": "2015-07-30 02:38:45",
+        "type": "component",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.4.x-dev"
+            },
+            "component": {
+                "styles": [
+                    "css/font-awesome.css"
+                ],
+                "files": [
+                    "css/font-awesome.min.css",
+                    "fonts/*"
+                ]
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT",
+            "OFL-1.1"
+        ],
+        "description": "The iconic font designed for use with Twitter Bootstrap."
+    },
+    {
+        "name": "agpfontawesome/icons",
+        "version": "4.4.0",
+        "version_normalized": "4.4.0.0",
+        "dist": {
+            "type": "file",
+            "url": "https://github.com/FortAwesome/Font-Awesome/raw/master/src/icons.yml",
+            "reference": "master",
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist"
+    }
+]

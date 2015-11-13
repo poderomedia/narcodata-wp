@@ -1,0 +1,28 @@
+@mixin form-default {
+	font-family: $font-family-secondary;
+	font-size: em(11px, $font-size-base);
+	width: 100%;
+	background: white;
+	color: $color-secondary;
+	padding: 0 10px;
+	border: none;
+	@include transition(border $transition);
+	@include prefix(border-radius, 0px);
+	-webkit-appearance: none;
+	background: none;
+}
+
+@include inputs {
+	@include prefix(box-sizing, border-box);
+	@include form-default;
+	outline: none;
+	float: none !important;
+}
+form {
+	@include placeholder($color-secondary);
+}
+
+textarea {
+	padding: 10px;
+	height: 100px;
+}

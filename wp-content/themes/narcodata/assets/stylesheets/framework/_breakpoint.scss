@@ -1,0 +1,32 @@
+$min: min-width;
+$max: max-width;
+$minh: min-height;
+$maxh: max-height;
+
+@mixin breakpoint($constraint, $viewport1, $viewport2: null) {
+  @if $constraint == $min {
+    @media screen and ($min: $viewport1) {
+      @content;
+    }
+  } @else if $constraint == $max {
+    @media screen and ($max: $viewport1) {
+      @content;
+    }
+  } @else {
+    @media screen and ($min: $viewport1 + 1) and ($max: $viewport2 - 1) {
+      @content;
+    }
+  }
+}
+
+@mixin breakpointh($constraint, $viewport) {
+  @if $constraint == $minh {
+    @media screen and ($minh: $viewport) {
+      @content;
+    }
+  } @else if $constraint == $maxh {
+    @media screen and ($maxh: $viewport) {
+      @content;
+    }
+  }
+}

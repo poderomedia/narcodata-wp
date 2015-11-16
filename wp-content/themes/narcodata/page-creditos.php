@@ -20,6 +20,7 @@
 						echo '<p>' . get_field('subtitulo') . '</p>';
 					}
 				?>
+				<?php social_buttons(); ?>
 			</div>
 		</div>
 	</div>
@@ -32,12 +33,5 @@
 		</div>
 	</div>
 </div>
-
-<!-- <div class="row-module sectionComments">
-	<div class="row">
-		<div class="col10 prefix1">
-		</div>
-	</div>
-</div> -->
 
 <?php get_footer(); ?>

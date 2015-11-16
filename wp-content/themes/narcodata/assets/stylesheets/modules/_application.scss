@@ -950,9 +950,6 @@ footer {
 
 
 
-
-
-
 .infoList {
 	margin: 0 0 20px 0;
 	.infoList-title {
@@ -1001,5 +998,23 @@ footer {
 				@extend .link-primary;
 			}
 		}
+		&.infoList-item--large {
+			.infoListPhoto { 
+				width: 400px;
+				height: 200px;
+				@include prefix(border-radius, 0px);
+				img {
+					@include prefix(border-radius, 0px);
+				}
+			}
+			.infoListBody {
+				margin: 0 0 0 420px;
+			}
+		}
 	}
 }
+
+
+
+
+

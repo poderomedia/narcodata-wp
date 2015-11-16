@@ -20,6 +20,7 @@
 						echo '<p>' . get_field('subtitulo') . '</p>';
 					}
 				?>
+				<?php social_buttons(); ?>
 			</div>
 		</div>
 	</div>

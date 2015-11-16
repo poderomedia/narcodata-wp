@@ -13,6 +13,7 @@
 			<div class="heading nomargin">
 				<h1>¿Qué es NarcoData?</h1>
 				<p>El narcotráfico en México tiene proporciones descomunales y es un entramado difícil de entender. Animal Político detectó esa necesidad informativa y creó NarcoData, un sitio interactivo que presenta una radiografía de las últimas cuatro décadas del crimen organizado, para que los lectores se expliquen, de manera sencilla, la evolución y el avance de los grupos delincuenciales en el país.</p>
+				<?php social_buttons(); ?>
 			</div>
 		</div>
 	</div>

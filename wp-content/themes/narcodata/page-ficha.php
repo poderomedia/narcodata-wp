@@ -10,35 +10,30 @@
 		<div class="row-module sectionArticle">
 
 			<div class="row">
-					<div class="col12">
-						<div class="headingTop">
-							<span>Ficha de Cártel</span>
-						</div>
+				<div class="col12">
+					<div class="headingTop">
+						<span>Ficha de Cártel</span>
 					</div>
-
+				</div>
 
 				<div class="col10 prefix1 nofloat">
-					<div class="heading nomargin">
-
-							<div class="col2">
+					<div class="heading with-photo nomargin">
+						<div class="heading-photo">
 							<?php 
-								$icono_cartel = get_field('icono_cartel');
-								if ($icono_cartel) : 
+								$icono_cartel = get_field('icono_cartel'); if ($icono_cartel) : 
 							?>
 								<img src="<?php echo $icono_cartel['sizes']['img_130x130']; ?>" />
 							<?php endif; ?>
-							</div>
-
-							<div class="col8">
-								<?php if( get_field('nombre_cartel') ): ?>
-									<h1><?php echo get_field('nombre_cartel'); ?></h1>
-								<?php endif; ?>
-								<?php if( get_field('tiempo_operacion') ): ?>
-									<h2><?php echo get_field('tiempo_operacion'); ?></h2>
-								<?php endif; ?>
-								<?php social_buttons(); ?>
-							</div>
-
+						</div>
+						<div class="heading-body">
+							<?php if( get_field('nombre_cartel') ): ?>
+								<h1><?php echo get_field('nombre_cartel'); ?></h1>
+							<?php endif; ?>
+							<?php if( get_field('tiempo_operacion') ): ?>
+								<h2><?php echo get_field('tiempo_operacion'); ?></h2>
+							<?php endif; ?>
+							<?php social_buttons(); ?>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -134,7 +129,7 @@
 						    $zona_de_operacion = get_sub_field('zona_de_operacion');
 						  ?>
 						 		<div class="infoList-item">
-						 			<div class="infoListBody">
+						 			<div class="infoListBody nomargin">
 						 				<?php if($nombre_area) : ?>
 						 					<h6><?php echo $nombre_area; ?></h6>
 						 				<?php endif; ?>
@@ -142,7 +137,7 @@
 											$zona_de_operacion = get_sub_field('zona_de_operacion');
 											if( ! empty($zona_de_operacion) ):
 										?>
-											<div id="map" style="width: 70%; height: 350px;"></div>
+											<div class="media-16_9 media" id="map"></div>
 											<script src='http://maps.googleapis.com/maps/api/js?sensor=false' type='text/javascript'></script>
 											<script type="text/javascript">
 											  //<![CDATA[
@@ -169,7 +164,6 @@
 											//]]>
 											</script>
 										<?php endif; ?> 					 				
-						 			
 						 			</div>
 					 			</div>
 					 		<?php endwhile; ?>

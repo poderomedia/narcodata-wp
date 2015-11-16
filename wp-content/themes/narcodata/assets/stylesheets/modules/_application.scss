@@ -458,6 +458,31 @@ footer {
 	.shareSocial {
 		padding: 15px 0 0 0;
 	}
+	&.with-photo {
+		.heading-photo {
+			width: 130px;
+			float: left;
+			@include breakpoint($max, $s-screen) {
+				width: 100px;
+			}
+			@include breakpoint($max, $xs-screen) {
+				width: 80px;
+			}
+			img {
+				width: 100%;
+			}
+		}
+		.heading-body {
+			margin: 0 0 0 150px;
+			@include breakpoint($max, $s-screen) {
+				margin: 0 0 0 120px;
+			}
+			@include breakpoint($max, $xs-screen) {
+				margin: 0 0 0 100px;
+			}
+		}
+
+	}
 }
 
 
@@ -966,6 +991,9 @@ footer {
 		padding: 20px;
 		@include prefix(box-shadow, rgba(0,0,0,0.03) 0 0 5px 2px);
 		@include clearfix;
+		@include breakpoint($max, $xs-screen) {
+			padding: 10px;
+		}
 		.infoListPhoto {
 			width: 100px;
 			height: 100px;
@@ -976,10 +1004,16 @@ footer {
 				height: 100%;
 				@include prefix(border-radius, 50%);
 			}
+			@include breakpoint($max, $xs-screen) {
+				width: 80px;
+				height: 80px;
+			}
 		}
 		.infoListBody {
 			margin: 0 0 0 120px;
-			width: 100%;
+			@include breakpoint($max, $xs-screen) {
+				margin: 0 0 0 100px;
+			}
 			h6 {
 				font-size: em(16px);
 				font-family: $font-family-secondary;
@@ -1006,9 +1040,23 @@ footer {
 				img {
 					@include prefix(border-radius, 0px);
 				}
+				@include breakpoint($max, $s-screen) {
+					width: 200px;
+					height: auto;
+				}
+				@include breakpoint($max, $xs-screen) {
+					width: 80px;
+					height: auto;
+				}
 			}
 			.infoListBody {
 				margin: 0 0 0 420px;
+				@include breakpoint($max, $s-screen) {
+					margin: 0 0 0 220px;
+				}
+				@include breakpoint($max, $xs-screen) {
+					margin: 0 0 0 100px;
+				}
 			}
 		}
 	}

@@ -75,7 +75,7 @@
 	 	$post_thumbnail_id = get_post_thumbnail_id($post->ID);
 	 	$post_thumbnail_url = wp_get_attachment_url( $post_thumbnail_id );
 	  if(is_single() || is_page()) { 
-	  	$html = '<ul class="shareSocial">';
+	  	$html = '<ul class="shareSocial shareSocial--two">';
 	  	$html.= '<li><a href="https://www.facebook.com/sharer/sharer.php?u='.$permalink.'" onclick="window.open(this.href, \'facebook-share\',\'width=580,height=296\');return false;"><i class="icon icon-16 flaticon social facebook-1"></i>Facebook</a></li>';
 	  	$html.= '<li><a href="http://twitter.com/share?text='.$post_title.'&url='.$permalink.'" onclick="window.open(this.href, \'twitter-share\', \'width=550,height=235\');return false;"><i class="icon icon-16 flaticon social twitter-1"></i>Twitter</a></li>';
 	  	$html.= '</ul>';

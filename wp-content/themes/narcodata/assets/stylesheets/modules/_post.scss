@@ -95,6 +95,14 @@
 
 .shareSocial {
 	@include clearfix;
+	@include breakpoint($max, $xs-screen) {
+		margin: 0;
+		@include position(fixed, 0 0px 0px 0px);
+		background: white;
+		z-index: 1000;
+		padding: 10px 20px!important;
+		border-top: 1px solid $color-lightgrey;
+	}
 	li {
 		float: left;
 		margin: 0 5px 0 0;
@@ -110,9 +118,27 @@
 			overflow: hidden;
 			position: relative;
 			border: 1px solid #d1d1d1;
+			@include prefix(box-sizing, border-box);
 			i {
 				@include position(absolute, 50% 0 0 50%);
 				margin: -8px;
+			}
+		}
+	}
+	&.shareSocial--two {
+		@include breakpoint($max, $xs-screen) {
+			padding: 10px 9px !important;
+			li {
+				margin: 0;
+				padding: 1px;
+				width: 50%;
+				@include prefix(box-sizing, border-box);
+				a {
+					width: 100%;
+					background: $color-primary;
+					color: white;
+					border: none;
+				}
 			}
 		}
 	}

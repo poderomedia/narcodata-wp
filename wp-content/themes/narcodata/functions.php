@@ -38,6 +38,28 @@
 		}
 	}
 
+	function my_excerpt($text, $excerpt){
+	  if ($excerpt) return $excerpt;
+
+	  $text = strip_shortcodes( $text );
+
+	  $text = apply_filters('the_content', $text);
+	  $text = str_replace(']]>', ']]&gt;', $text);
+	  $text = strip_tags($text);
+	  $excerpt_length = apply_filters('excerpt_length', 55);
+	  $excerpt_more = apply_filters('excerpt_more', ' ' . '[...]');
+	  $words = preg_split("/[\n\r\t ]+/", $text, $excerpt_length + 1, PREG_SPLIT_NO_EMPTY);
+	  if ( count($words) > $excerpt_length ) {
+	          array_pop($words);
+	          $text = implode(' ', $words);
+	          $text = $text . $excerpt_more;
+	  } else {
+	          $text = implode(' ', $words);
+	  }
+
+	  return apply_filters('wp_trim_excerpt', $text, $raw_excerpt);
+	}
+
 	function social_buttons() {
 	  global $post;
 	  $permalink = get_permalink($post->ID);
@@ -86,10 +108,14 @@
 			$post_title = $blogname;
 		}
 
-		if(is_single()) { 
-			$description = my_excerpt( $post->post_content, $post->post_excerpt );
-			$description = strip_tags($description);
-			$description = str_replace("\"", "\'", $description);
+		if(is_single() || is_page()) { 
+			if(get_field('social_text_post')) {
+				$description = get_field('social_text_post');
+			} else {
+				$description = my_excerpt($post->post_content, $post->post_excerpt );
+				$description = strip_tags($description);
+				$description = str_replace("\"", "\'", $description);
+			}
 		} else {
 			$description = $blogdescription;
 		}
@@ -103,9 +129,11 @@
 		$result .= "<meta property=\"og:description\" content=\"$description\" />\n";
 		$result .= "<meta property=\"og:title\" content=\"$post_title\" />\n";
 
-		$result .= "<meta name=\"twitter:card\" content=\"summary\"/>\n";
-		$result .= "<meta name=\"twitter:title\" content=\"$post_title - $blogname\"/>\n";
-
+		$result .= "<meta name=\"twitter:card\" content=\"summary_large_image\"/>\n";
+		$result .= "<meta name=\"twitter:title\" content=\"$post_title\"/>\n";
+		$result .= "<meta name=\"twitter:description\" content=\"$description\">\n";
+		$result .= "<meta name=\"twitter:site\" content=\"@NarcoData\">\n";
+		$result .= "<meta name=\"twitter:creator\" content=\"@NarcoData\">\n";
 
 		if (is_single() || is_page()) {
 			$result .= "<meta property=\"og:type\" content=\"article\" />\n";
@@ -124,11 +152,15 @@
 			if(get_field('social_photo_post')) {
 				$social_photo_post = get_field('social_photo_post');
 				$image = $social_photo_post['url'];
-				echo "<meta property=\"og:image\" content=\"$image\" />\n";
+				$resultImage =	"<meta property=\"og:image\" content=\"$image\" />\n";
+				$resultImage .=	"<meta name=\"twitter:image\" content=\"$image\" />\n";
+				echo $resultImage;
 			} elseif(get_the_post_thumbnail($post->ID, 'thumbnail')) {
 				$post_thumbnail_id = get_post_thumbnail_id($post->ID);
 				$image = wp_get_attachment_url( $post_thumbnail_id );
-				echo "<meta property=\"og:image\" content=\"$image\" />\n";
+				$resultImage =	"<meta property=\"og:image\" content=\"$image\" />\n";
+				$resultImage .=	"<meta name=\"twitter:image\" content=\"$image\" />\n";
+				echo $resultImage;
 			}
 		}
 

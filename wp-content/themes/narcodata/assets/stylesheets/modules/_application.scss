@@ -1030,6 +1030,7 @@ footer {
 			}
 			a {
 				@extend .link-primary;
+				word-break: break-all;
 			}
 		}
 		&.infoList-item--large {
